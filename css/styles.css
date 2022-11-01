@@ -3210,8 +3210,8 @@ textarea.form-control-lg {
 
 .btn-light {
   color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: #8E1859;
+  border-color: #8E1859;
 }
 .btn-light:hover {
   color: #000;
@@ -11486,6 +11486,20 @@ footer.footer .social-link:hover {
   margin: 0;
   padding: 0;
 }
+
+.masthead h1, .masthead .h1 .purple {
+  color: #3B054F;
+}
+
+.masthead h3, .masthead .h3 .orange {
+  color: #FF7200;
+}
+
+.masthead a, .masthead .a .yellow {
+  color: #FEB538;
+}
+
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
