@@ -108,6 +108,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+h4, .colourY{
+
+  color: #FEB538;
+}
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -151,6 +155,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem;
 }
+
 
 p {
   margin-top: 0;
@@ -7805,9 +7810,9 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
-.bg-primary {
+.bg-primary2 {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #B8215E;
 }
 
 .bg-secondary {
@@ -11421,7 +11426,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bag1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11431,6 +11436,7 @@ html {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+  color: #FF941C;
 }
 
 footer.footer {
@@ -11495,9 +11501,20 @@ footer.footer .social-link:hover {
   color: #FF7200;
 }
 
+h2, .h2 .purp2 {
+color: #8E1859;
+}
+
+h2, .h2 .dpurp{
+
+  color: #3B054F;
+}
+
 .masthead a, .masthead .a .yellow {
   color: #FEB538;
 }
+
+
 
 
 @media (min-width: 992px) {
